@@ -1,0 +1,12 @@
+LandisData	PnETSpeciesParameters																	
+PnETSpeciesParameters	FolN	SLWmax	SLWDel	TOfol	AmaxA	AmaxB	HalfSat	H3	H4	PsnAgeRed	PsnTMin	PsnTOpt	k	FracBelowG	EstMoist	EstRad	FracFol	FrActWd
+acersacc	1.5	55	0.2	1	-46	71.9	100	105	145	5	3	23	0.61	0.33	3	3	0.05	0.00006  <<maple	
+betupapy	2.2	55	0.2	1	-46	71.9	250	100	140	5	2	21	0.61	0.25	3	3	0.05	0.00007  <<birch
+>>aspen clones																		
+clone8	1.9	120	0.2	1	-46	71.9	300	100	140	5	2	21	0.61	0.25	3	3	0.055	0.00007
+clone42	2.2	120	0.2	1	-46	71.9	250	100	140	5	2	21	0.61	0.25	3	3	0.055	0.00007
+clone216	2.3	120	0.2	1	-46	71.9	250	100	140	5	2	21	0.61	0.25	3	3	0.055	0.00007
+clone271	2.6	120	0.2	1	-46	71.9	250	100	140	5	2	21	0.61	0.25	3	3	0.055	0.00007
+
+
+

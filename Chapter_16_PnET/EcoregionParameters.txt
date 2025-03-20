@@ -1,0 +1,12 @@
+LandisData	EcoregionParameters											
+EcoregionParameters	SoilType	RootingDepth	PrecLossFrac	LeakageFrac	PrecIntConst	SnowSublimFrac	ClimateFileName             
+   eco1			SALO	1000		0.0		1.0		0.11		0.15	Airport-climate-ambient-CO2-ambient-CumO3-AllReps.txt
+>>   eco1		SALO	1000		0.0		1.0		0.11		0.15	Airport-climate-elevated-CO2-ambient-CumO3-Rep1.txt <<elevated CO2
+
+
+
+
+
+
+
+
