@@ -1,0 +1,23 @@
+LandisData  "Output Max Species Age"
+
+Timestep   10
+
+
+MapNames   	outputs/max-age-selected-spp/{species}-{timestep}.gis
+
+Species    	abiebals
+		acerrubr
+		acersacc
+		betualle
+		betupapy
+		fraxamer
+		piceglau
+		pinubank
+		pinuresi
+		pinustro
+		poputrem
+		querrubr
+		querelli
+		thujocci
+		tiliamer
+	   
