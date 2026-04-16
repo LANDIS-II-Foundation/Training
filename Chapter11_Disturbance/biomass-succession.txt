@@ -27,7 +27,7 @@ MinRelativeBiomass
 >> Shade	Percent Max Biomass
 >> Class	by Ecoregions
 >> ----------	--------------------	
-	        eco1    eco2    
+	        101    102    
 	1	25%    	25%     
 	2	45%     45% 
 	3	56%     56% 
@@ -51,8 +51,8 @@ SpeciesDataFile		SpeciesData.csv
 
 EcoregionParameters
 >>	AET (mm)
-eco1	600
-eco2	600
+101	600
+102	600
 
 SpeciesEcoregionDataFile   SppEcoregionData.csv 
 
