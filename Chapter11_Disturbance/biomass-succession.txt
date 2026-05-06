@@ -11,7 +11,7 @@ SeedingAlgorithm  		WardSeedDispersal
 
 InitialCommunities      	biomass-succession_InitialCommunities.csv
 InitialCommunitiesMap   	simple_init.gis
-ClimateConfigFile		biomass-succession_ClimateGenerator.txt
+ClimateConfigFile		climate-inputs.txt
 
 >> CalibrateMode 		yes
 

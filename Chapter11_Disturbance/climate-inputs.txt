@@ -6,8 +6,7 @@ ClimateFile				PRISM_data_AFRI_4.18.13_v2.csv
 SpinUpClimateTimeSeries			Monthly_AverageAllYears
 SpinUpClimateFile			PRISM_data_AFRI_4.18.13_v2.csv
 
->> UsingClimateFire	yes  << Optional parameter; default is no.
-GenerateClimateOutputFiles		yes
+GenerateClimateOutputFiles		no
 UsingFireClimate			no
 >>FineFuelMoistureCode			100
 >>DuffMoistureCode			100
