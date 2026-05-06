@@ -1,0 +1,6 @@
+2026-05-05 14:30:16,592 - LANDIS-II 8.0 (8)
+2026-05-05 14:30:16,596 - 
+2026-05-05 14:30:16,640 - Loading scenario from file "site_Scenario.txt" ...
+2026-05-05 14:30:16,664 - Error at line 12 of file "site_Scenario.txt":
+  Error reading input value for Extension:
+    No extension with the name "Density-Succession".

@@ -1,0 +1,101 @@
+LANDIS-II-Site-input
+<<<<<<<<<<<<<<<<<Succession Extension
+SuccessionExtension,Density-Succession
+<<<<<<<<<<<<<<<<<Disturbance Extension
+<<<<<<<<<<<<<<<<<Output Extension
+OutputExtension,Yes
+<<<<<<<<<<<<<<<<<Other Extension
+<<<<<<<<<<<<<<<<<Simulation Parameters
+SimulationYears,100
+TimeStep,10
+StartYear,2000
+SeedingAlgorithm,DensitySeeding
+RandomSeedCheck,Yes
+RandomSeedSet,6177882
+ReplicateCheck,No
+ReplicateNum,5
+<<<<<<<<<<<<<<<<<Ecoregion Parameters
+ClimateFile,C:\Users\zzhou\Documents\GitHub\Tool-L2-Site-ZZ\src\bin\Debug\Inter\Density-Succession\site_Climate.txt
+Latitude,45
+<<<<<<<<<<<<<<<<<Initial communities
+Species,Age,TreeNumber
+querrubr,10,10
+querrubr,50,1
+pinubank,10,1
+<<<<<<<<<<<<<<<<<Species Life History Parameters
+SpeciesCode,Longevity,sex_Maturity,shade_Tol.,fire_Tol.,seed_disper_Effective,seed_disp_Maximum,veg_ReprodProb,sprout_age_Min,sprout_age_Max,post_fire_Regen
+pinubank,100,15,1,3,20,100,0,0,0,serotiny
+querrubr,250,25,3,2,30,3000,0.5,20,200,resprout
+<<<<<<<<<<<<<<<<<Species Ecophysiological Parameters
+DensitySpeciesParameters,SpType,BiomassClass,MaxDia,MaxSDI,TotalSeed,CarbonCoef,ProbEst
+pinubank,1,17,70,1100,0,0.5,0.22
+querrubr,0,11,65,570,0,0.5,1.0
+<<<<<<<<<<<<<<<<<Disturbance Table
+Reduction,Fire,Wind,Harvest,BDA
+WoodReduction,0.33,0,0.70,0
+FolReduction,1,0,0,0
+RootReduction,0,0,0,0
+DeadWoodReduction,0.7,0,0,0
+LitterReduction,0.9,0,0.1,0
+<<<<<<<<<<<<<<<<<GSO threshold
+GSO1,GSO2,GSO3,GSO4
+0.35,0.54,0.65,0.8
+<<<<<<<<<<<<<<<<<Diameter table
+Species,Age,Diameter 
+querrubr,1,3
+querrubr,10,7.5
+querrubr,20,11
+querrubr,30,15
+querrubr,40,20
+querrubr,50,25
+querrubr,60,30
+querrubr,70,35
+querrubr,80,40
+querrubr,90,44
+querrubr,100,48
+querrubr,110,51
+querrubr,120,54
+querrubr,130,57
+querrubr,140,59
+querrubr,150,61
+querrubr,160,63
+querrubr,170,64
+querrubr,180,64.5
+querrubr,190,65
+pinubank,1,3
+pinubank,20,13
+pinubank,30,19
+pinubank,40,25
+pinubank,50,32
+pinubank,60,38
+pinubank,70,44
+pinubank,80,49
+pinubank,90,54
+pinubank,100,59
+pinubank,110,64
+pinubank,120,66
+pinubank,130,68
+pinubank,140,69
+pinubank,150,70
+<<<<<<<<<<<<<<<<<Biomass Allometry
+minimum_DBH,2.54
+SpType,Species,V0,V1  
+1,Aspen,-2.2094,2.3867
+2,Alder,-2.2094,2.3867
+3,Cottonwood,-2.2094,2.3867
+4,Willow,-2.2094,2.3867
+5,Soft maple,-1.9123,2.3651
+6,Birch,-1.9123,2.3651
+7,Mixed hardwood,-2.48,2.4835
+8,Hard maple,-2.0127,2.4342
+9,Hickory,-2.0127,2.4342
+10,Beech,-2.0127,2.4342
+11,Oak,-2.0127,2.4342
+12,Cedar,-2.0336,2.2592
+13,Larch,-2.0336,2.2592
+14,Douglas-fir,-2.2304,2.4435
+15,True fir,-2.5384,2.4814
+16,Hemlock,-2.5384,2.4814
+17,Pine,-2.5356,2.4349
+18,Spruce,-2.0773,2.3323
+19,Grass,-1.00,1.00

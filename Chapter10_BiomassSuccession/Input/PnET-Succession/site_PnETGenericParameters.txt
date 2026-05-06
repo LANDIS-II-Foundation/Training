@@ -1,0 +1,5 @@
+LandisData  PnETGenericParameters
+
+PnETGenericParameters		Value
+FracBelowG   0.33
+CanopySumScale   0.1
